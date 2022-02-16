@@ -1,0 +1,15 @@
+*{
+ box-sizing: border-box;
+}
+
+div{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+ion-buttons{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
