@@ -13,3 +13,29 @@ ion-buttons{
     align-items: center;
   }
 
+
+  .produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+  }
+  .balanço{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .metas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .validade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
