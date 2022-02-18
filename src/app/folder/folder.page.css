@@ -2,11 +2,13 @@
  box-sizing: border-box;
 }
 
-div{
-  display: flex;
-  justify-content:center;
-  align-items: center;
+body{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
 }
+
 ion-buttons{
     display: flex;
     justify-content:space-between;
@@ -14,28 +16,48 @@ ion-buttons{
   }
 
 
-  .produtos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 200px;
-  }
-  .balanço{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .metas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .validade{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+.PordutosEBalanço{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 170px;
+  margin-top: 20px;
+}
+
+.produtos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: #45213e;
+}
+.balanço{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: #912448;
+}
+
+.metas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top:20px ;
+  height: 150px;
+}
+
+.validade{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  background-color:#e1cb14 ;
+}
