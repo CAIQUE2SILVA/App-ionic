@@ -14,8 +14,10 @@ ion-buttons{
     justify-content:space-between;
     align-items: center;
   }
-
-
+  img{
+    height: 100%;
+    width: 100%;
+  }
 .PordutosEBalanço{
   display: flex;
   align-items: center;
@@ -61,3 +63,17 @@ ion-buttons{
   height: 350px;
   background-color:#e1cb14 ;
 }
+
+.impressora{
+  height: 25px;
+  width: 35px;
+  filter: invert(100%);
+}
+
+
+ .botaos{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
