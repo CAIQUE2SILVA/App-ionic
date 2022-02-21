@@ -45,7 +45,7 @@ ion-buttons{
   background-color: #912448;
 }
 
-.metas{
+.Vendas{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,15 +65,40 @@ ion-buttons{
 }
 
 .impressora{
-  height: 25px;
-  width: 35px;
-  filter: invert(100%);
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+
+}
+
+.barrademenu{
+  background-color:#45213e ;
 }
 
 
  .botaos{
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: flex-start;
  }
 
+ .pda{
+   display: flex;
+  height: 107px;
+  width: 100px;
+  position: absolute;
+  transform: rotate(20deg);
+ }
+ .vibrador{
+   justify-content: end;
+   position: absolute;
+   height: 100px;
+   width: 90px;
+ }
+
+ .text{
+   position: sticky;
+  font-size: 30px;
+  color: white;
+ }
