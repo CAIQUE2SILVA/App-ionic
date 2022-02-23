@@ -139,6 +139,7 @@ ion-buttons{
   font-family:'Montserrat';
   font-style: italic;
   font-weight: 500;
+
 }
 
 .autofalante{
@@ -150,10 +151,12 @@ ion-buttons{
     margin-top: 130px;
     width: 250px;
     transform: rotate(-32deg);
+    filter: saturate(7);
 }
 
 .telavendas{
   position: absolute;
+  filter: blur(1.5px)
 }
 
 
