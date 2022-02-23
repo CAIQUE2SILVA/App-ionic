@@ -27,41 +27,26 @@ ion-buttons{
 }
 
 .produtos{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   height: 100%;
   width: 100%;
   background-color: #45213e;
 }
 .balanço{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   height: 100%;
   width: 100%;
   background-color: #912448;
 }
 
 .Vendas{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin-top:20px ;
   height: 150px;
 }
 
 .validade{
-  display: flex;
   margin-top: 40px;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   height: 350px;
-  background-color:#e1cb14 ;
+  background-color: #e1cb14;
 }
 
 .impressora{
@@ -84,21 +69,91 @@ ion-buttons{
  }
 
  .pda{
-   display: flex;
+  display: flex;
+  margin-top: 70px;
   height: 107px;
   width: 100px;
   position: absolute;
   transform: rotate(20deg);
- }
+
+}
+
+ .pda:active{
+  transition: all 0.7S;
+  transform: translateX(10px)
+   scale(1.2);
+}
+
  .vibrador{
-   justify-content: end;
-   position: absolute;
-   height: 100px;
-   width: 90px;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 40px;
+  height: 130px;
+  display: flex;
+  width: 80px;
  }
 
- .text{
-   position: sticky;
-  font-size: 30px;
-  color: white;
+ .textProdutos{
+    position: absolute;
+    margin: 1;
+    margin-top: 65px;
+    margin-left: 45px;
+    font-size: 35px;
+    color: white;
+    font-family:'Montserrat';
+    font-style: italic;
+    font-weight: 100;
+
+
  }
+ .textBalanco{
+      position: absolute;
+      margin: 1;
+      margin-top: 60px;
+      margin-left: 22px;
+      font-size: 40px;
+      color: white;
+      font-family:'Montserrat';
+      font-style: italic;
+      font-weight: 100;
+}
+.textVendas{
+  position: absolute;
+  margin: 1;
+  margin-top: 53px;
+  margin-left: 150px;
+  font-size: 40px;
+  color: white;
+  font-family:'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+}
+.textValidade{
+  display: flex;
+  position: absolute;
+  margin: 1;
+  margin-top: 114px;
+  margin-left: 40px;
+  font-size: 40px;
+  color: white;
+  font-family:'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+}
+
+.autofalante{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 220px;
+    margin-top: 130px;
+    width: 250px;
+    transform: rotate(-32deg);
+}
+
+.telavendas{
+  position: absolute;
+}
+
+
