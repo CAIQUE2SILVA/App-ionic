@@ -164,4 +164,17 @@ ion-buttons{
   filter: blur(1.5px)
 }
 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31rem;
+  
+}
+
+.ion-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
