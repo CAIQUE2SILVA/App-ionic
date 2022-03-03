@@ -9,6 +9,7 @@ body{
   font-size: 1.2rem;
 }
 
+
 ion-buttons{
     display: flex;
     justify-content:space-between;
@@ -25,6 +26,7 @@ ion-buttons{
   justify-content: space-around;
   height: 170px;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .produtos{
@@ -39,14 +41,15 @@ ion-buttons{
 }
 
 .Vendas{
-  margin-top:20px ;
-  height: 150px;
+  margin-top: 30px;
+  height: 180px;
+  text-align: center;
 }
 
 .validade{
   margin-top: 40px;
   text-align: center;
-  height: 350px;
+  height: 340px;
   background-color: #e1cb14;
 }
 
@@ -60,29 +63,32 @@ ion-buttons{
 
 .barrademenu{
   background-color:#45213e ;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 
  .botaos{
    display: flex;
-   justify-content: end;
+   justify-content: flex-end;
    align-items: flex-start;
  }
 
  .pda{
   display: flex;
-  margin-top: 70px;
-  height: 107px;
-  width: 100px;
+  margin-top: 54px;
+  margin-right: 120px;
+  height: 130px;
+  width: 122px;
   position: absolute;
-  transform: rotate(20deg);
+  transform: rotate(36deg);
 
 }
 
  .balanço:active{
   transition: all 0.1S;
   transform: translateX(1px)
-   scale(1.035);
+   scale(1.1);
 }
 
  .vibrador{
@@ -102,7 +108,6 @@ ion-buttons{
     position: absolute;
     margin: 1;
     margin-top: 65px;
-    margin-left: 45px;
     font-size: 35px;
     color: white;
     font-family:'Montserrat';
@@ -112,21 +117,19 @@ ion-buttons{
 
  }
  .textBalanco{
-      position: absolute;
-      margin: 1;
-      margin-top: 60px;
-      margin-left: 22px;
-      font-size: 40px;
-      color: white;
-      font-family:'Montserrat';
-      font-style: italic;
-      font-weight: 100;
+   position: absolute;
+    margin: 1;
+    margin-top: 60px;
+    font-size: 40px;
+    color: white;
+    font-family:'Montserrat';
+    font-style: italic;
+    font-weight: 100;
 }
 .textVendas{
   position: absolute;
   margin: 1;
   margin-top: 53px;
-  margin-left: 150px;
   font-size: 40px;
   color: white;
   font-family:'Montserrat';
@@ -137,8 +140,7 @@ ion-buttons{
   display: flex;
   position: absolute;
   margin: 1;
-  margin-top: 114px;
-  margin-left: 40px;
+  margin-top: 100px;
   font-size: 40px;
   color: white;
   font-family:'Montserrat';
@@ -148,12 +150,9 @@ ion-buttons{
 }
 
 .autofalante{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
     height: 220px;
     margin-top: 130px;
+    margin-left: 20px;
     width: 250px;
     transform: rotate(-32deg);
     filter: saturate(7);
@@ -168,13 +167,41 @@ ion-buttons{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 31rem;
-  
+
+
 }
 
-.ion-page{
+div{
   display: flex;
   justify-content: center;
-  align-items: center;
 }
+
+@media (min-width: 650px){
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .PordutosEBalanço, .Vendas, .validade {
+    align-items: center;
+    position: relative;
+    width: 70%;
+
+    }
+
+}
+
+@media(min-width: 990px){
+  ion-buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+
+
+
+
 

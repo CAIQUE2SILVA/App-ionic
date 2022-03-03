@@ -5,8 +5,7 @@ ion-list.header{
   display: flex;
   justify-content: center;
   align-items: center;
-   background-color: #45213e;
-
+  background-color: #45213e;
   }
 
 .test{
