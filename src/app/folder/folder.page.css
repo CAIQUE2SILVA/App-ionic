@@ -10,6 +10,8 @@ body{
 }
 
 
+
+
 ion-buttons{
     display: flex;
     justify-content:space-between;
@@ -25,8 +27,14 @@ ion-buttons{
   align-items: center;
   justify-content: space-around;
   height: 170px;
+  width: 450px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+ng-componet{
+  display: flex;
+  justify-content: center;
 }
 
 .produtos{
@@ -43,13 +51,16 @@ ion-buttons{
 .Vendas{
   margin-top: 30px;
   height: 180px;
+  width: 450px;
   text-align: center;
+
 }
 
 .validade{
-  margin-top: 40px;
+  margin: 40px 10px 40px 10px;
   text-align: center;
   height: 340px;
+  width: 450px;
   background-color: #e1cb14;
 }
 
@@ -88,7 +99,7 @@ ion-buttons{
  .balanço:active{
   transition: all 0.1S;
   transform: translateX(1px)
-   scale(1.1);
+   scale(0.9);
 }
 
  .vibrador{
@@ -99,10 +110,7 @@ ion-buttons{
   display: flex;
   width: 80px;
  }
- .card-native {
-   display: flex;
-   justify-content: center;
- }
+
 
  .textProdutos{
     position: absolute;
@@ -151,8 +159,8 @@ ion-buttons{
 
 .autofalante{
     height: 220px;
-    margin-top: 130px;
-    margin-left: 20px;
+    margin-top: 105px;
+     margin-right: 280px;
     width: 250px;
     transform: rotate(-32deg);
     filter: saturate(7);
@@ -163,32 +171,19 @@ ion-buttons{
   filter: blur(1.5px)
 }
 
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-
-}
 
 div{
   display: flex;
   justify-content: center;
 }
 
-@media (min-width: 650px){
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .PordutosEBalanço, .Vendas, .validade {
-    align-items: center;
-    position: relative;
-    width: 70%;
+@media (min-width: 760px){
+.PordutosEBalanço , .Vendas , .validade{
+  width: 70%;
+}
 
-    }
+
 
 }
 
@@ -197,11 +192,14 @@ div{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: 10rem;
   }
 }
 
+.conteiner{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
-
-
-
-
+}

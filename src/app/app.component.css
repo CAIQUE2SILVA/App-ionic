@@ -1,14 +1,28 @@
 *{
   box-sizing: border-box;
+ 
  }
-ion-list.header{
+ion-list.cabeçalho{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #45213e;
+  height: 56px;
   }
 
 .test{
   background-color: #45213e;
 }
+
+ion-avatar.avatar{
+  display: flex;
+  height: 52px;
+  width: 70px;
+}
+
+.logo{
+  display: flex;
+  margin-left: 45px;
+}
+
 

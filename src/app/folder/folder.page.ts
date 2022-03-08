@@ -6,8 +6,6 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./folder.page.css'],
 })
 export class FolderPage implements OnInit {
-  public folder: string;
-
   constructor(private activatedRoute: ActivatedRoute,) {}
 
   ngOnInit() {
