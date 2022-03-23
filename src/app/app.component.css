@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
- 
+
  }
 ion-list.cabeçalho{
   display: flex;
@@ -9,10 +9,6 @@ ion-list.cabeçalho{
   background-color: #45213e;
   height: 56px;
   }
-
-.test{
-  background-color: #45213e;
-}
 
 ion-avatar.avatar{
   display: flex;

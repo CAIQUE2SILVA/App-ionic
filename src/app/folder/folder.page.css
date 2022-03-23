@@ -9,9 +9,6 @@ body{
   font-size: 1.2rem;
 }
 
-
-
-
 ion-buttons{
     display: flex;
     justify-content:space-between;
@@ -134,6 +131,7 @@ ng-componet{
     font-style: italic;
     font-weight: 100;
 }
+
 .textVendas{
   position: absolute;
   margin: 1;
@@ -144,6 +142,7 @@ ng-componet{
   font-style: italic;
   font-weight: 500;
 }
+
 .textValidade{
   display: flex;
   position: absolute;
@@ -163,15 +162,12 @@ ng-componet{
      margin-right: 280px;
     width: 250px;
     transform: rotate(-32deg);
-    filter: saturate(7);
 }
 
 .telavendas{
   position: absolute;
   filter: blur(1.5px)
 }
-
-
 
 div{
   display: flex;
@@ -182,17 +178,19 @@ div{
 .PordutosEBalanço , .Vendas , .validade{
   width: 70%;
 }
-
-
-
 }
 
-@media(min-width: 990px){
+@media (max-width: 375px){
+  .PordutosEBalanço , .Vendas , .validade{
+    width: 100%;
+  }
+}
+
+@media (min-width: 990px){
   ion-buttons{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 10rem;
   }
 }
 
@@ -201,5 +199,12 @@ div{
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  overflow-x: hidden;
 
+}
+
+.fundo{
+  position: absolute;
+  height: 54rem;
+  opacity: calc(72%);
 }

@@ -10,6 +10,18 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'cadastro',
+    loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
+  },
+  {
+    path: 'Entrada-de-produtos',
+    loadChildren: () => import('./Entrada-de-produtos/Entrada-de-produtos.module').then( m => m.EntradaDeProdutosPageModule)
+  },
+  {
+    path: 'acesso',
+    loadChildren: () => import('./acesso/acesso.module').then( m => m.AcessoPageModule)
   }
 ];
 
