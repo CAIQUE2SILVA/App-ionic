@@ -36,11 +36,13 @@ ng-componet{
 }
 
 .produtos{
+  margin: 0px 5px 0px 0px;
   height: 100%;
   width: 100%;
   background-color: #45213e;
 }
 .balanço{
+  margin: 0px 0px 0px 5px;
   height: 100%;
   width: 100%;
   background-color: #912448;
