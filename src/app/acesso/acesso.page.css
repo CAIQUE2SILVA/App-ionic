@@ -17,7 +17,9 @@ ion-buttons{
   align-items: center;
 }
 
-
+ion-toolbar{
+  background-color: #45213e;
+}
 
 ion-header {
   display: flex;
@@ -35,10 +37,27 @@ ion-content{
 .test{
   display: flex;
   margin: auto;
-  height: 10px;
-  width: 10px;
+  height: 200px;
+
   background-color: black;
 }
 
+ion-row{
+  display: grid;
+  width: auto;
+  grid-template-columns: 1fr 1fr ;
+}
 
 
+.teste{
+  background-color: black;
+}
+.teste1{
+  background-color: red;
+}
+.teste2{
+  background-color: yellow;
+}
+.teste3{
+  background-color: green;
+}
