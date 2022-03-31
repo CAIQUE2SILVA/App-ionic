@@ -21,6 +21,8 @@ ion-toolbar{
   background-color: #45213e;
 }
 
+
+
 ion-header {
   display: flex;
   position: relative;
@@ -38,7 +40,6 @@ ion-content{
   display: flex;
   margin: auto;
   height: 200px;
-
   background-color: black;
 }
 
@@ -50,14 +51,48 @@ ion-row{
 
 
 .teste{
-  background-color: black;
+    display: flex;
+    padding: 20px 20px 5px 20px;
 }
 .teste1{
+  width: 100px;
   background-color: red;
 }
 .teste2{
-  background-color: yellow;
+  display: flex;
+  flex-direction:column;
+  height: 1.5rem;
+  width: 100%;
 }
 .teste3{
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 35px;
+  width: 8rem;
+  margin-top: 16px;
+  background: #fafbfc;
+  border: solid 1px #ccc;
+  border-color:#e4e5e7;
+  border-radius:  3px  3px  ;
+}
+
+.filtro{
+  margin: 25px auto;
+  height: 378px;
+  width: 90%;
+}
+
+
+ion-content{
+  display: flex;
+  align-items: center;
+}
+
+ion-input{
+  text-align: center;
+  height: 35px;
+  border: 0.5px #ccc solid;
+  border-radius:  3px  3px  ;
 }
