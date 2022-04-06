@@ -35,25 +35,6 @@ ion-content{
   justify-content: center;
 }
 
-
-.test{
-  display: flex;
-  margin: auto;
-  height: 200px;
-  background-color: black;
-}
-
-ion-row{
-  display: grid;
-  width: auto;
-  grid-template-columns: 1fr 1fr ;
-}
-
-
-.teste{
-    display: flex;
-    padding: 20px 20px 5px 20px;
-}
 .teste1{
   width: 100px;
   background-color: red;
@@ -95,4 +76,53 @@ ion-input{
   height: 35px;
   border: 0.5px #ccc solid;
   border-radius:  3px  3px  ;
+}
+
+.t1{
+
+}
+.t2
+{
+  margin-top: 16px;
+  background-color: rgb(151, 34, 34);
+}
+.t3
+{
+  background-color: rgb(66, 30, 90);
+}
+.t4
+{
+  background-color: rgb(209, 156, 87);
+}
+.t5
+{
+  background-color: rgb(17, 34, 184);
+}
+
+
+ion-row{
+  display: grid;
+  grid-template-rows: 2fr 20px 2fr   ;
+  align-items: center;
+}
+
+.ate{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+.input-data{
+  margin: 0px 10px 0px 10px;
+  width: 140px;
+}
+.input-data-final{
+  margin: 0px 10px 0px 10px;
+  width: 140px;
+}
+
+.data{
+  display: grid;
+  grid-template-columns: 2fr 20px 2fr   ;
+  align-items: center;
 }
