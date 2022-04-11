@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AcessoPage implements OnInit {
 
+  Overwier = false ;
+
   constructor() { }
 
   ngOnInit() {
   }
 
+}
+
+export class OVerview {
+  painelStat=false
 }
