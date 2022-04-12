@@ -59,7 +59,6 @@ ion-row{
   height: 100%;
   padding: 10px;
   display: grid;
-  grid-template-rows: 2fr 20px 2fr   ;
   align-items: center;
   grid-gap: 10px;
 }
@@ -113,7 +112,14 @@ ion-row{
 .data-login-senha{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr ;
+  border: solid 2px black;
+  ;
+}
+.logs{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr ;
   border: solid 1px black;
+  margin-top: 5px;
 }
 
 td,tr{
