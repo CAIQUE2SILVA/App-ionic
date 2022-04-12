@@ -61,8 +61,23 @@
           <ion-row >
             <ion-col Class="Quantidade">
               <ion-label>Mostrar</ion-label>
-              <ion-input placeholder=""></ion-input>
+              <ion-select value="todos" >
+             <ion-select-option value="16">16</ion-select-option>
+             <ion-select-option value="32">32</ion-select-option>
+             <ion-select-option value="50">50</ion-select-option>
+             <ion-select-option value="100">100</ion-select-option>
+            </ion-select>
               <ion-label>Registros por Pagina</ion-label>
+            </ion-col>
+          </ion-row>
+          <ion-row >
+            <ion-col Class="Ordenar-por">
+              <ion-label>Ordenar Por:</ion-label>
+              <ion-select value="todos" >
+             <ion-select-option value="Data">Data</ion-select-option>
+             <ion-select-option value="nome">Nome</ion-select-option>
+             <ion-select-option value="ip">ip</ion-select-option>
+            </ion-select>
             </ion-col>
           </ion-row>
           <ion-row>
@@ -88,7 +103,6 @@
                 <td>
                   <tr> ip</tr>
               </td>
-
                 <td>
                   <tr>Data</tr>
               </td>
@@ -98,69 +112,9 @@
                 <td>
                   <tr> ip</tr>
               </td>
-                <td>
-                  <tr>Data</tr>
-              </td>
-                <td>
-                  <tr>login</tr>
-              </td>
-                <td>
-                  <tr> ip</tr>
-              </td>
-                <td>
-                  <tr>Data</tr>
-              </td>
-                <td>
-                  <tr>login</tr>
-              </td>
-                <td>
-                  <tr> ip</tr>
-              </td>
-                <td>
-                  <tr>Data</tr>
-              </td>
-                <td>
-                  <tr>login</tr>
-              </td>
-                <td>
-                  <tr> ip</tr>
-              </td>
-                <td>
-                  <tr>Data</tr>
-              </td>
-                <td>
-                  <tr>login</tr>
-              </td>
-                <td>
-                  <tr> ip</tr>
-              </td>
-                <td>
-                  <tr>Data</tr>
-              </td>
-                <td>
-                  <tr>login</tr>
-              </td>
-                <td>
-                  <tr> ip</tr>
-              </td>
-                <td>
-                  <tr>Data</tr>
-              </td>
-                <td>
-                  <tr>login</tr>
-              </td>
-                <td>
-                  <tr> ip</tr>
-              </td>
-
             </tbody>
             </ion-col>
-
-
-
-
           </ion-row>
-
         </ion-grid>
         </ion-card>
 </ion-content>

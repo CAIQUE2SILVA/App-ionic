@@ -69,6 +69,12 @@ ion-row{
   align-items: center;
   grid-gap: 10px;
 }
+.Ordenar-por{
+  display: grid;
+  grid-template-columns: 60px 2fr 2fr  ;
+  align-items: center;
+  grid-gap: 10px;
+}
 
 .ate{
   display: flex;
