@@ -79,7 +79,8 @@ ion-row{
 .ate{
   display: flex;
   align-items: center;
-  background: antiquewhite;
+  background: #fafbfc;
+  border-color: #e4e537 !important;
   justify-content: center;
   height: 30px;
 }
@@ -118,21 +119,26 @@ ion-row{
 .data-login-senha{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr ;
-  border: solid 2px black;
+  border: solid 2px #ccc;
   ;
 }
 .logs{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr ;
-  border: solid 1px black;
+  border: solid 1px #ccc;
   margin-top: 5px;
 }
 
-td,tr{
-  border: solid 1px black;
+tr{
+  border: solid 1px #ccc;
 }
 
 ion-card{
   margin: 25px auto;
   width: 90%;
 }
+
+ion-select{
+  border: solid 1px black;
+}
+
