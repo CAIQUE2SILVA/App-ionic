@@ -21,6 +21,11 @@
 
 <ion-content>
 
+    <!-- Plano de Fundo -->
+    <div class="fundo">
+      <img src="assets/w2.jpg">
+    </div>
+
   <!--Card de filtro-->
         <ion-card class="filtro" >
           <ion-grid class="Filtros">
@@ -60,20 +65,20 @@
         <ion-grid>
           <ion-row >
             <ion-col Class="Quantidade">
-              <ion-label>Mostrar</ion-label>
-              <ion-select value="todos" >
+              <ion-label class="mostrar">Mostrar</ion-label>
+              <ion-select value="todos"  class="select">
              <ion-select-option value="16">16</ion-select-option>
              <ion-select-option value="32">32</ion-select-option>
              <ion-select-option value="50">50</ion-select-option>
              <ion-select-option value="100">100</ion-select-option>
             </ion-select>
-              <ion-label>Registros por Pagina</ion-label>
+              <ion-label class="mostrar">Registros por Pagina</ion-label>
             </ion-col>
           </ion-row>
           <ion-row >
             <ion-col Class="Ordenar-por">
-              <ion-label>Ordenar Por:</ion-label>
-              <ion-select value="todos" >
+              <ion-label class="mostrar">Ordenar Por:</ion-label>
+              <ion-select value="todos"  class="select">
              <ion-select-option value="Data">Data</ion-select-option>
              <ion-select-option value="nome">Nome</ion-select-option>
              <ion-select-option value="ip">ip</ion-select-option>
@@ -117,4 +122,5 @@
           </ion-row>
         </ion-grid>
         </ion-card>
+
 </ion-content>

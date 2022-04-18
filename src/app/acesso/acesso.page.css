@@ -21,12 +21,10 @@ ion-toolbar{
   background-color: #45213e;
 }
 
-
 ion-header {
   display: flex;
   position: relative;
 }
-
 
 ion-content{
   display: flex;
@@ -34,13 +32,11 @@ ion-content{
   justify-content: center;
 }
 
-
 .filtro{
   margin: 25px auto;
   height: 310px;
   width: 90%;
 }
-
 
 ion-content{
   display: flex;
@@ -53,34 +49,38 @@ ion-input{
   border: 0.5px #ccc solid;
   border-radius:  3px  3px  ;
 }
+ion-card{
+  padding: 10px;
+}
 
 
 ion-row{
   height: 100%;
-  padding: 10px;
   display: grid;
   align-items: center;
-  grid-gap: 10px;
+  grid-row-gap: 15px;
 }
 
 .Quantidade{
   display: grid;
-  grid-template-columns: 60px 2fr 2fr  ;
+  text-align: center;
+  grid-template-columns: 80px 2fr 2fr;
   align-items: center;
-  grid-gap: 10px;
 }
+
 .Ordenar-por{
   display: grid;
-  grid-template-columns: 60px 2fr 2fr  ;
+  grid-template-columns: 97px 2fr ;
   align-items: center;
-  grid-gap: 10px;
 }
 
 .ate{
+  border: solid #555 1px;
+  border-radius: 3px;
   display: flex;
   align-items: center;
   background: #fafbfc;
-  border-color: #e4e537 !important;
+  color: #555;
   justify-content: center;
   height: 30px;
 }
@@ -106,13 +106,14 @@ ion-row{
   align-items: center;
 }
 
-@media (min-width: 992px){
-  ion-row {
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: 1fr;
-
+@media (max-width: 429px){
+ .mostrar {
+    font-size: 11px  !important;
+    padding: 10px 2px !important;
   }
+}
+
+@media (min-wid) {
 
 }
 
@@ -129,6 +130,11 @@ ion-row{
   margin-top: 5px;
 }
 
+input{
+  border: solid 2px #ccc;
+  border-radius: 3px;
+}
+
 tr{
   border: solid 1px #ccc;
 }
@@ -138,7 +144,36 @@ ion-card{
   width: 90%;
 }
 
-ion-select{
-  border: solid 1px black;
+ion-grid{
+  display: grid;
+  grid-gap: 10px;
 }
 
+ion-select{
+  border-radius: 3px;
+  height: 33px;
+  border-color: #e4e5e7;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.mostrar{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  border: 1px solid #ccc;
+  background: #fafbfc;
+  border-color:#e4e5e7 ;
+  border-radius: 4px;
+  padding: 9px 5px;
+}
+
+
+.fundo{
+  display: flex;
+  position: absolute;
+  height: 100%;
+  opacity: calc(72%);
+
+}

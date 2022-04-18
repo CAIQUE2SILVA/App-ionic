@@ -215,7 +215,7 @@ div{
 
 .fundo{
   position: absolute;
-  height: 54rem;
+  height: 100%;
   opacity: calc(72%);
 }
 
