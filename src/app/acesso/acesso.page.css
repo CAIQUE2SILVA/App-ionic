@@ -117,7 +117,7 @@ ion-row{
 
 }
 
-.data-login-senha{
+.data-login-ip{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr ;
   border: solid 2px #ccc;

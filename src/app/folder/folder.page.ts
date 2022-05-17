@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+
+
+
 @Component({
   selector: 'app-folder',
   templateUrl: './folder.page.html',
@@ -7,9 +10,10 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class FolderPage implements OnInit {
   constructor(private activatedRoute: ActivatedRoute,) {
-   
 
   }
+
+
 
   ngOnInit() {
   }

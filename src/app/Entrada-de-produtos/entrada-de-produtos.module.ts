@@ -13,7 +13,7 @@ import { EntradaDeProdutosPage } from './entrada-de-produtos.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    EntradaDeProdutosPageRoutingModule
+    EntradaDeProdutosPageRoutingModule,
   ],
   declarations: [EntradaDeProdutosPage]
 })

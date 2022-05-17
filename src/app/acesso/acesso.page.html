@@ -4,10 +4,10 @@
       <ion-menu-button>
         <ion-icon name="home-outline"></ion-icon>
       </ion-menu-button>
-
       <div class="botaos">
-          <ion-button>
-              <img src="../assets/R.png" class="impressora"></ion-button>
+          <ion-button (click)="presentActionSheet()" >
+              <img src="../assets/R.png" class="impressora" >
+            </ion-button>
         <ion-button>
           <ion-icon name="apps-outline"></ion-icon>
         </ion-button>
@@ -48,7 +48,7 @@
               </ion-col>
               <ion-label>Acesso:</ion-label>
               <ion-col>
-                <ion-item detail="false">
+                <ion-item>
                   <ion-select value="Todos" interface="action-sheet">
                     <ion-select-option value="Sucesso">Sucesso</ion-select-option>
                     <ion-select-option value="Sem Sucesso">Sem Sucesso</ion-select-option>
@@ -87,7 +87,7 @@
           </ion-row>
           <ion-row>
             <ion-col >
-              <thead class="data-login-senha">
+              <thead class="data-login-ip">
                 <tr>
                   <td>Data</td>
                 </tr>
