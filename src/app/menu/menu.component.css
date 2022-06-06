@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+
+ }
+ion-list.cabeçalho{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #45213e;
+  height: 56px;
+  }
+
+ion-avatar.avatar{
+  display: flex;
+  height: 52px;
+  width: 70px;
+}
+
+.logo{
+  display: flex;
+  margin-left: 45px;
+}
+
+*{
+  box-sizing: border-box;
+ }
+
+ body{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+   font-size: 1.2rem;
+ }
+
+ ion-buttons{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+   }
+   img{
+     height: 100%;
+     width: 100%;
+   }
+
+
+ ng-componet{
+   display: flex;
+   justify-content: center;
+ }
+
+
+ .barrademenu{
+   background-color:#45213e ;
+   padding-top: 0px;
+   padding-bottom: 0px;
+ }
+
+
+
+
+
