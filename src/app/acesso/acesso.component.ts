@@ -1,4 +1,3 @@
-import { IpService } from './ip.service';
 import { Component, OnInit } from '@angular/core';
 
 
@@ -12,13 +11,11 @@ export class AcessoComponent implements OnInit {
 
 
 
-  constructor(private ipService: IpService ) { }
+  constructor( ) { }
 
 
 
-  ngOnInit() {
-    this.ipService.
-  }
+  ngOnInit() { }
 
 
 
