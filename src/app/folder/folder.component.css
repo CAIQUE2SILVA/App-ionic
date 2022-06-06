@@ -9,11 +9,6 @@
    font-size: 1.2rem;
  }
 
- ion-buttons{
-     display: flex;
-     justify-content:space-between;
-     align-items: center;
-   }
    img{
      height: 100%;
      width: 100%;
@@ -26,14 +21,11 @@
    height: 170px;
    width: 485px;
    margin:auto;
-   margin-top: 30px;
+   margin-top: 79px ! important;
    margin-bottom: 30px;
  }
 
- ng-componet{
-   display: flex;
-   justify-content: center;
- }
+
 
  .produtos{
    margin: 0px 5px 0px 0px;
@@ -64,27 +56,6 @@
    width: 450px;
    background-color: #e1cb14;
  }
-
- .impressora{
-   justify-content: center;
-   align-items: center;
-   height: 20px;
-   width: 20px;
-
- }
-
- .barrademenu{
-   background-color:#45213e ;
-   padding-top: 0px;
-   padding-bottom: 0px;
- }
-
-
-  .botaos{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-  }
 
   .pda{
    display: flex;
@@ -208,13 +179,12 @@
    align-items: center;
    flex-direction: column;
    justify-content: center;
-   overflow-x: auto;
-
 
  }
 
  .fundo{
    position: absolute;
-   height: 100%;
+   height: 105vh;
+   width: 200vh;
    opacity: calc(72%);
  }

@@ -1,7 +1,9 @@
+import { EntradaDeProdutosComponent } from './Entrada-de-produtos/entrada-de-produtos.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { FolderComponent } from './folder/folder.component';
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { AcessoComponent } from './acesso/acesso.component';
 
 const routes: Routes = [
   {
@@ -12,14 +14,10 @@ const routes: Routes = [
   {path:'folder', component: FolderComponent},
 
   {path:'cadastro', component: CadastroComponent},
-{
-    path: 'Entrada-de-produtos',
-    loadChildren: () => import('./Entrada-de-produtos/Entrada-de-produtos.module').then( m => m.EntradaDeProdutosPageModule)
-  },
-  {
-    path: 'acesso',
-    loadChildren: () => import('./acesso/acesso.module').then( m => m.AcessoPageModule)
-  }
+
+  {path:'entrada-de-produtos', component:EntradaDeProdutosComponent},
+
+  {path:'acesso', component: AcessoComponent},
 ];
 
 @NgModule({
