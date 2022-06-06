@@ -1,3 +1,4 @@
+import { CadastroComponent } from './cadastro/cadastro.component';
 import { FolderComponent } from './folder/folder.component';
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
@@ -5,18 +6,13 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'folder',
     pathMatch: 'full'
   },
-  {
-    path: 'folder/:id',
-    loadChildren: () => import('./folder/folder.module').then( m => m.FolderComponent)
-  },
-  {
-    path: 'cadastro',
-    loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
-  },
-  {
+  {path:'folder', component: FolderComponent},
+
+  {path:'cadastro', component: CadastroComponent},
+{
     path: 'Entrada-de-produtos',
     loadChildren: () => import('./Entrada-de-produtos/Entrada-de-produtos.module').then( m => m.EntradaDeProdutosPageModule)
   },
