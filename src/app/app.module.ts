@@ -2,6 +2,7 @@ import { EntradaDeProdutosComponent } from './Entrada-de-produtos/entrada-de-pro
 import { AcessoComponent } from './acesso/acesso.component';
 import { FolderComponent } from './folder/folder.component';
 import { MenuComponent } from './menu/menu.component';
+import { IpService } from './acesso/ip.service';
 import { HttpClientModule } from '@angular/common/http';
 
 import { NgModule } from '@angular/core';
@@ -15,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,HttpClientModule,ReactiveFormsModule],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy,  }, IpService],
   bootstrap: [AppComponent],
 })
 export class AppModule {
