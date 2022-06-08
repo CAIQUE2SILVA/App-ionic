@@ -12,6 +12,6 @@ export class IpService{
 
   obterAcesso(): Observable<IpAcesso[]>{
     return this.http
-    .get<IpAcesso[]>(this.urlservidceV1 + 'acesso');
+    .get<IpAcesso[]>(this.urlservidceV1 + 'ipacesso');
   }
 }
