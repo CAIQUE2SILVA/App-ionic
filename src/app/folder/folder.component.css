@@ -184,6 +184,7 @@
 
  .fundo{
    position: absolute;
-   height: 100%;
+   width: 100vw;
+   height: 100vh;
    opacity: calc(72%);
  }
