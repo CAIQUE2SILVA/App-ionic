@@ -72,44 +72,47 @@
             <ion-col >
               <thead class="data-login-ip" >
                 <tr>
-                  <td *ngFor="let acesso of acesso" >
-                    {{acesso}}
-                  </td>
-                </tr>
-                <tr>
                   <td>Data</td>
                 </tr>
                 <tr>
                   <td>login</td>
-              </tr>
+                </tr>
                 <tr>
                   <td> ip</td>
-              </tr>
+                </tr>
               </thead>
               <tbody class="logs">
                 <tr>
-                <td>Data</td>
-              </tr>
+                  <td>Data</td>
+                </tr>
                 <tr>
                   <td>login</td>
-              </tr>
+                </tr>
                 <tr>
                   <td> ip</td>
-              </tr>
+                </tr>
                 <tr>
-                  <td>Data</td>
-              </tr>
-                <tr>
-                  <td>login</td>
-              </tr>
-                <tr>
-                  <td> </td>
-              </tr>
-            </tbody>
+                <tr *ngFor="let acesso of acesso"  >
+                  <td>
+                    {{acesso.data}} {{acesso.login}} {{acesso.ip}}
+                  </td>
+                </tr>
+                <tr *ngFor="let acesso of acesso">
+                  <td>
+                    {{acesso.login}}
+                  </td>
+                </tr>
+                <tr   >
+                  <td *ngFor="let acesso of acesso">
+                    {{acesso.ip}}
+                  </td>
+                </tr>
+              </tbody>
             </ion-col>
           </ion-row>
         </ion-grid>
-        </ion-card>
+      </ion-card>
 
 </ion-content>
+
 

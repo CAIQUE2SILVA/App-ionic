@@ -177,3 +177,8 @@ ion-select{
  opacity: calc(72%);
 
 }
+
+td{
+    display: flex;
+    flex-direction: column;
+}
