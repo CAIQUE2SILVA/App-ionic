@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-acesso',
   templateUrl: './acesso.component.html',
   styleUrls: ['./acesso.component.css'],
+  animations:[]
 })
 export class AcessoComponent implements OnInit {
 

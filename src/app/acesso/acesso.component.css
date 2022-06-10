@@ -182,3 +182,12 @@ td{
     display: flex;
     flex-direction: column;
 }
+
+.test-animation{
+  animation-name: example;
+}
+
+@keyframes example{
+  0%{left:500px;}
+
+}
