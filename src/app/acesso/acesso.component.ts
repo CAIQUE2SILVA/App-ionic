@@ -1,6 +1,7 @@
 import { IpService } from './ip.service';
 import { IpAcesso } from './ip';
 import { Component, OnInit } from '@angular/core';
+import AOS from 'aos';
 
 
 @Component({
@@ -28,5 +29,7 @@ export class AcessoComponent implements OnInit {
       },
       error => console.log(error)
     );
+    AOS.init();
+
    }
 }

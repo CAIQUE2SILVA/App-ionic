@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActionSheetController } from '@ionic/angular';
+import Aos from 'aos';
 
 @Component({
   selector: 'app-menu',
@@ -33,6 +34,10 @@ export class MenuComponent implements OnInit {
     actionSheet.present();
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    Aos.init();
+  };
+
+
 
 }
